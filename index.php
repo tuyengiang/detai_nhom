@@ -1,18 +1,24 @@
+<?php require_once("inc/lib.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Học Viện Anh Ngữ Quốc Tế</title>
+	<title>Học Viện Anh Ngữ Quốc Tế Sysdney</title>
 	<meta charset="utf-8"/>
 	<!--meta seo-->
 	<meta name="author" content="Tuyển giảng, quang hiếu, thế anh, hồng hải">
 	<meta name="description" content="Trang web học viện ngôn ngữ sysdney">
 	<meta name="keyword" content="sysdney,học viện sysdney, khóa học tiếng anh online, trung tâm đào tạo tiếng anh,học viên anh ngũ, khóa học tiếng anh giao tiếp">
+	<!--responsive-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!--css-->
-	<link rel="stylesheet" type="text/css" href="js/jquery.bxslider.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery.bxslider.css">
 	<link rel="stylesheet" type="text/css" href="css/awesom/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 	<link rel="icon" href="img/logo.png" type="image/x-icon"/>
+
 	<!--jquery-->
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
@@ -45,17 +51,21 @@
 		</div><!--logo-->
 		<div class="menu">
 			<ul>
-				<li><a href="index.php"><i class="fa fa-home"></i> TRANG CHỦ</a></li>
+				<li><a href="index.php">TRANG CHỦ</a></li>
 				<li><a href="#">GIỚI THIỆU</a></li>
 				<li><a href="#">KHÓA HỌC</a></li>
-				<li><a href="#">
-TIN TỨC</a></li>
+				<li><a href="#">TIN TỨC</a></li>
 				<li><a href="#">TUYỂN DỤNG</a></li>
 				<li><a href="#">LIÊN HỆ</a></li>
-
 			</ul>
 		</div><!--menu-->
 		<div class="search">
+			<div class="dangky">
+				<a href="dangki.php" title="Đăng Ký"><i class="fa fa-sign-in"></i></a>
+			</div><!--login-->
+			<div class="login">
+				<a href="dangnhap.php" title="Đăng Nhập"><i class="fa fa-user"></i></a>
+			</div><!--login-->
 			<button id="btn" title="Tìm Kiếm"><i class="fa fa-search"></i></button>
 			<div class="search-btn">
 				<form method="post" action="search.php">
@@ -63,6 +73,7 @@ TIN TỨC</a></li>
 				</form>	
 
 			</div><!--search-btn-->
+
 		</div><!--search-->
 
 	     </div><!--header-content-->
@@ -76,17 +87,21 @@ TIN TỨC</a></li>
 		</div><!--logo-->
 		<div class="menu">
 			<ul>
-				<li><a href="index.php"><i class="fa fa-home"></i> TRANG CHỦ</a></li>
+				<li><a href="index.php"> TRANG CHỦ</a></li>
 				<li><a href="#">GIỚI THIỆU</a></li>
 				<li><a href="#">KHÓA HỌC</a></li>
-				<li><a href="#">
-TIN TỨC</a></li>
+				<li><a href="#">TIN TỨC</a></li>
 				<li><a href="#">TUYỂN DỤNG</a></li>
 				<li><a href="#">LIÊN HỆ</a></li>
-
 			</ul>
 		</div><!--menu-->
 		<div class="search">
+			<div class="dangky">
+				<a href="dangki.php" title="Đăng Ký"><i class="fa fa-sign-in"></i></a>
+			</div><!--login-->
+			<div class="login">
+				<a href="dangnhap.php" title="Đăng Nhập"><i class="fa fa-user"></i></a>
+			</div><!--login-->
 			<button id="btn" title="Tìm Kiếm"><i class="fa fa-search"></i></button>
 			<div class="search-btn">
 				<form method="post" action="search.php">
@@ -99,17 +114,16 @@ TIN TỨC</a></li>
 	     </div><!--header-content-->
 	</div><!--header-->
 	
-
+	<div style="clear:left;"></div>
 	<div id="slider">
-			
-		<ul class="bixslider">
-			<li><a href="#"><img src="img/1.jpg"></a></li>
-			<li><a href="#"><img src="img/2.jpg"></a></li>
-			<li><a href="#"><img src="img/3.jpg"></a></li>
-			<li><a href="#"><img src="img/4.jpg"></a></li>
-			<li><a href="#"><img src="img/5.jpg"></a></li>
-		</ul>
-
+			<ul class="bixslider">
+				<li><a href="#"><img src="img/1.jpg"></a></li>
+				<li><a href="#"><img src="img/2.jpg"></a></li>
+				<li><a href="#"><img src="img/3.jpg"></a></li>
+				<li><a href="#"><img src="img/4.jpg"></a></li>
+				<li><a href="#"><img src="img/5.jpg"></a></li>
+			</ul>
+		
 	</div><!--slider-->
 
 	<div id="khoa-hoc">
@@ -125,7 +139,7 @@ TIN TỨC</a></li>
 			<div class="clear"></div>
 			<div class="khoa-hoc-slider">
 				<h4>
-					Tiếng Anh trẻ em
+					<a href="#">Tiếng Anh trẻ em</a>
 				</h4>
 				<p>
 					Dành cho các bé từ 3-6 tuổi.
@@ -143,7 +157,7 @@ TIN TỨC</a></li>
 			</div>
 			<div class="khoa-hoc-slider">
 				<h4>
-					Tiếng Anh Mầm non
+					<a href="#">Tiếng Anh Mầm non</a>
 				</h4>
 				<p>
 					Dành cho các bé từ lớp 1 -> lớp 5.
@@ -161,7 +175,7 @@ TIN TỨC</a></li>
 			</div>
 			<div class="khoa-hoc-slider">
 				<h4>
-					Tiếng Anh THCS
+					<a href="#">Tiếng Anh THCS</a>
 				</h4>
 				<p>
 					Dành cho các bé từ lớp 6 -> lớp 9.
@@ -179,7 +193,7 @@ TIN TỨC</a></li>
 			</div>
 			<div class="khoa-hoc-slider">
 				<h4>
-					Tiếng Anh Giao tiếp tổng quát
+					<a href="#">Tiếng Anh Giao tiếp tổng quát</a>
 				</h4>
 				<p>
 					Dành cho mọi đối tượng.
@@ -312,7 +326,7 @@ TIN TỨC</a></li>
 	    </div><!--class-gioi-thieu-->
 		
 	</div><!--gioithieu-->
-	
+	<div style="clear:left;"></div>
 	<div id="video">
 		<h3>
 			VIDEO VÀ TIN TỨC SYDNEY<hr>
@@ -328,13 +342,13 @@ TIN TỨC</a></li>
 		</div>	
 		<div style="clear:left;"></div>
 		<div  class="bot-video" >
-			<img   alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="https://img.youtube.com/vi/SL0oHvhll88/0.jpg">	</div>
+			<img   alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="img/youtube.jpg">	</div>
 		<div  class="bot-video" >	
-			<img    alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="https://img.youtube.com/vi/SL0oHvhll88/0.jpg" >		</div>
+			<img    alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="img/youtube.jpg" >		</div>
 		<div  class="bot-video" >	
-			<img    alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="https://img.youtube.com/vi/SL0oHvhll88/0.jpg" >		</div>
+			<img    alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="img/youtube.jpg" >		</div>
 		<div  class="bot-video" >	
-			<img    alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="https://img.youtube.com/vi/SL0oHvhll88/0.jpg"">	</div>
+			<img    alt="Anh ngữ SYDNEY - Nơi đào tạo Tiếng Anh uy tín nhất Nam Định" src="img/youtube.jpg">	</div>
 	 
 	</div>
 	</div><!--video-->
@@ -343,19 +357,19 @@ TIN TỨC</a></li>
 		<h3>Cảm nhận của học viên<hr></h3>
 		<div class="comment">
 			<div class="comment-img">
-				<img   src="http://www.anhngusydney.com/wp-content/uploads/2017/05/2_DoTuanTai-280x280.jpg"  alt="">
+				<img   src="img/anhbl.jpg"  alt="">
 			</div>
 			<div class="comment-title">“Cô giáo và thầy tây dạy vui lắm ạ. Trung tâm thì đẹp ạ. Con thích được hát các bài hát tiếng anh mà cô dạy.”</div>
 		</div>
 		<div class="comment">
 			<div class="comment-img">
-				<img  src="http://www.anhngusydney.com/wp-content/uploads/2017/05/13_TranDiepChi-280x280.jpg" class="rt-responsive-img" alt="">
+				<img  src="img/anhbl2.jpg" alt="">
 			</div>
 			<div class="comment-title">“Cô giáo và thầy tây dạy vui lắm ạ. Trung tâm thì đẹp ạ. Con thích được hát các bài hát tiếng anh mà cô dạy.”</div> 
 		</div>
 		<div class="comment">
 			<div class="comment-img">
-				<img  src="http://www.anhngusydney.com/wp-content/uploads/2017/05/12_DinhGiaPhu2-280x280.jpg" class="rt-responsive-img" alt="">
+				<img  src="img/anhbl3.jpg" alt="">
 			</div>
 			<div class="comment-title">“Cô giáo và thầy tây dạy vui lắm ạ. Trung tâm thì đẹp ạ. Con thích được hát các bài hát tiếng anh mà cô dạy.”</div>
 		</div>
@@ -382,19 +396,11 @@ TIN TỨC</a></li>
 		</div><!--bottom-content-->
 
 	</div><!--bottom-->
-
 	<div id="updown">
 		<div class="updown-header">
 				<a href="#top"><i class="fa fa-chevron-up" id="down6"></i></a>
 
 		</div><!--updown-header-->
-		<div class="updown-mess">
-				<i class="fa fa-envelope-o "></i>
-		</div><!--updown-header-->
-		<div class="updown-phone">
-				<i class="fa fa-phone"></i>
-		</div><!--updown-header-->
-
 	</div><!--updown-->
 </body>
 </html>

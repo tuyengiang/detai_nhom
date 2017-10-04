@@ -1,0 +1,196 @@
+*{
+	margin:0; padding:0;
+}
+
+
+@media all and (max-width:860px){
+	body{
+		background:white;
+	}
+	hr{
+		
+		width:30%;
+		margin:auto;
+		height:5px;
+		border:none;
+		margin-top:5px;
+		background:#c4161c;
+	}
+	/***top**/
+	#top{
+		background:#dd3333;
+		height:40px;
+		width:100%;
+	}
+	#top-content{
+		width:100%;
+	}
+	.top-right,.top-left{
+		display:none;
+	}
+	/**header**/
+	#header{
+		width:100%;
+		height:40px;
+		background:white;
+	}
+	#header-content{
+		width:100%;
+		height:40px;
+	}
+	.logo{
+		width:10%;
+		height:40px;
+		margin:auto;
+		float:none;
+	}
+	.logo img{
+		width:100%;
+		height:30px;
+	}
+	.menu{
+		display:none;
+	}
+	.search{
+		display:none;
+	}
+	/**slider**/
+	#slider{
+		width:100%;
+		height:200px;
+	}
+	.bixslider img{
+		width:100%;
+		height:200px;
+	}
+	/**main**/
+	#main{
+		width:100%;
+		margin-top:10px;
+	}
+	#main-left #main-right{
+		float:none;
+	}
+	#main-left{
+		width:100%;
+		border:1px solid black;
+	}
+	#main-right{
+		margin-top:20px;
+		width:100%;
+	}
+	/**khoahoc**/
+	#khoa-hoc{
+		width:90%;
+		height:1250px;
+		margin:auto;
+		margin-top:50px;
+	}
+	#khoa-hoc .khoa-hoc-content{
+		float:none;
+		width:100%;
+		height:300px;
+	}
+	/**luachon*/
+	#lua-chon{
+		width:90%;
+		margin:auto;
+	}
+	#lua-chon .lua-chon-content{
+		width:100%;
+		float:none;
+	}
+	#lua-chon .lua-chon-slider{
+		display:none;
+	}
+	/**gioi-thieu*/
+	#gioi-thieu{
+		background:white;
+		width:100%;
+		height:1100px;
+		background-image:none;
+	}
+	.gioi-thieu{
+		background:white;
+		opacity:1;
+	}
+	#content{
+		width:60%;
+		margin:auto;
+		margin-top:10px;
+		box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+	}
+	.content-nd{
+		float:none;
+		width:100%;
+		height:320px;
+	}
+	.content-img{
+		width:100%;
+		height:280px;
+}
+	.content-img img{
+		width:100%;
+		height:280px;
+		transition:0.5s ease all;
+	}
+	/**video*/
+	#video{
+		width:100%;
+		height:600px;
+		margin:auto;
+		margin-top:50px;
+	}
+	#video .main-video{
+		width:60%;
+		float:none;
+		margin:auto;
+		height:200px;
+	}
+	#video .main-video iframe{
+		width: 100%;
+		height: 200px;
+		margin-top: 20px;
+	}
+	#video .right-video{
+		width:60%;
+		height:150px;
+		margin:auto;
+		float:none;
+		margin-top:50px;
+	}
+	#video .right-video iframe{
+		width: 100%;
+		height:150px;
+	}
+	#video .bot-video{
+		display:none;
+	}
+	/*camnhan*/
+	#cam-nhan{
+		width:90%;
+		height:300px;
+	}
+	/**bottom**/
+	#bottom{
+		width:100%;
+		height:100px;
+	}
+	/****/
+	table{
+		width:100%;
+		margin-top:10px;
+	}
+	table,tr,td{
+		border-collapse:collapse;
+		border:1px solid #ddd;
+	}
+	thead{
+		background:#DD3333;
+		color:white;
+		text-align:center;
+		height:40px;
+		line-height:40px;
+		border-right:1px solid white;
+	}	
+}

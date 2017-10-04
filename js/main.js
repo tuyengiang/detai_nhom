@@ -1,3 +1,4 @@
+/**search**/
 $(document).ready(function(){
 	$(".bixslider").bxSlider();
 
@@ -5,11 +6,9 @@ $(document).ready(function(){
 		$(".search-btn").fadeToggle(200);
 	});
 	
-
-	
 });
 
-
+/**lentop**/
 $(document).ready(function(){
 	$(window).scroll(function(){
 		if($(this).scrollTop()>300){
@@ -24,7 +23,7 @@ $(document).ready(function(){
 	});
 });
 
-
+/**luachon**/
 $(document).ready(function(){
 	$("#down").on("click",function(){
 		$(".lua-chon-content-1-content").toggle(400);
@@ -39,7 +38,7 @@ $(document).ready(function(){
 	});
 
 });
-
+/*menu**/
 $(document).ready(function(){
 	$(window).scroll(function(){
 		if($(this).scrollTop()>200){
@@ -50,6 +49,3 @@ $(document).ready(function(){
 		}
 	})
 })
-
-
-
