@@ -1,4 +1,4 @@
-<?php require_once("inc/lib.php"); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,10 +12,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!--css-->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="js/jquery.bxslider.css">
 	<link rel="stylesheet" type="text/css" href="css/awesom/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 	<link rel="icon" href="img/logo.png" type="image/x-icon"/>
 
@@ -32,9 +32,9 @@
 	    <div id="top-content">
 	    	<div class="top-left">
 		    	<a href="#" ><i class="fa fa-map-marker"></i> Số 126 Lê Hồng Phong , Nam Định </a>| 	
-			<a href="#" <i class="fa fa-envelope-square"></i> Anhngusysdney@gmail.com </a>| 
-			<a href="#" <i class="fa fa-bell"></i> 8H00 - 20H00 </a>| 
-			<a href="#" <i class="fa fa-phone"></i> 0934555000</a>
+			<a href="#" ><i class="fa fa-envelope-square"></i> Anhngusysdney@gmail.com </a>| 
+			<a href="#" ><i class="fa fa-bell"></i> 8H00 - 20H00 </a>| 
+			<a href="#" ><i class="fa fa-phone"></i> 0934555000</a>
 		</div><!--top-left-->
 		<div class="top-right">
 			<a href="#" title="facebook"><i class="fa fa-facebook"></i> </a>  
@@ -45,6 +45,19 @@
 	   </div><!--top-content-->
 	</div><!--too-->
 	<div id="header">
+		<div id="menu-bar">
+	     		<button type="submit" id="btn-bar"><i class="fa fa-bars"></i></button>
+	     	</div><!--menu-bar-->
+	     	<div class="menu-bar">
+			<ul>
+				<li><a href="index.php">TRANG CHỦ</a></li>
+				<li><a href="#">GIỚI THIỆU</a></li>
+				<li><a href="#">KHÓA HỌC</a></li>
+				<li><a href="#">TIN TỨC</a></li>
+				<li><a href="#">TUYỂN DỤNG</a></li>
+				<li><a href="#">LIÊN HỆ</a></li>
+			</ul>
+		</div><!--menu-->
 	     <div id="header-content">
 	     	<div class="logo">
 			<a href="index.php" title="Trang Chủ"><img src="img/logo.png" title="Trang Chủ Sysdney"></a>

@@ -8,6 +8,14 @@ $(document).ready(function(){
 	
 });
 
+
+/*$(document).ready(function(){
+	$("#btn-bar").on("click",function){
+		$(".menu-bar").css("display","block");
+	}
+});*/
+
+
 /**lentop**/
 $(document).ready(function(){
 	$(window).scroll(function(){
@@ -48,4 +56,5 @@ $(document).ready(function(){
 			$("#header-scroll").fadeOut(200);
 		}
 	})
-})
+});
+

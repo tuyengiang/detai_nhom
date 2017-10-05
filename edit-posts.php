@@ -81,9 +81,9 @@
 	    <div id="top-content">
 	    	<div class="top-left">
 		    	<a href="#" ><i class="fa fa-map-marker"></i> Số 126 Lê Hồng Phong , Nam Định </a>| 	
-			<a href="#" <i class="fa fa-envelope-square"></i> Anhngusysdney@gmail.com </a>| 
-			<a href="#" <i class="fa fa-bell"></i> 8H00 - 20H00 </a>| 
-			<a href="#" <i class="fa fa-phone"></i> 0934555000</a>
+			<a href="#" ><i class="fa fa-envelope-square"></i> Anhngusysdney@gmail.com </a>| 
+			<a href="#" ><i class="fa fa-bell"></i> 8H00 - 20H00 </a>| 
+			<a href="#"> <i class="fa fa-phone"></i> 0934555000</a>
 		</div><!--top-left-->
 		<div class="top-right">
 			<a href="#" title="facebook"><i class="fa fa-facebook"></i> </a>  

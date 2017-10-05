@@ -105,6 +105,9 @@ hr{
 	margin:auto;
 	background:white;
 }
+#menu-bar{
+	display:none;
+}
 .logo{
 	width:10%;
 	height:60px;
@@ -146,6 +149,12 @@ hr{
 	position:relative;
 	right:155px;
 	top:15px;
+}
+#menu-bar{
+	display:none;
+}
+.menu-bar{
+	display:none;
 }
 /**slider**/
 

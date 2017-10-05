@@ -54,6 +54,21 @@
 	.search{
 		display:none;
 	}
+	/**menu-bar**/
+	#menu-bar{
+		display:block;
+		width:20%;
+		height:40px;
+		float:left;
+		margin-top:0;
+	}
+	.menu-bar{
+		position:absolute;
+		width:50%;
+		display:none;
+		height:1000px;
+		background:white;
+	}
 	/**slider**/
 	#slider{
 		width:100%;
@@ -192,5 +207,12 @@
 		height:40px;
 		line-height:40px;
 		border-right:1px solid white;
+	}
+	/**button*/
+	#btn-bar{
+		width:100%;
+		height:40px;
+		background:white;
+		color:black;
 	}	
 }
